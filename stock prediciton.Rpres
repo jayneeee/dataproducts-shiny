@@ -1,0 +1,46 @@
+Stock Prices History
+========================================================
+author: Jayneeee
+
+date: 27 sept 2017
+
+
+Overview
+========================================================
+
+Allows user to view adjusted stock price history of top tech companies from 2017-01-01 till present and calculates the rate of return of the stock over the specified period
+
+* Facebook
+* Apple
+* Amazon
+* Netflix
+* Google
+
+code can be found at https://github.com/jayneeee/dataproducts-shiny
+
+
+Instructions
+========================================================
+* Use Quandl package to download stock price data off the web. 
+
+* The app takes in three inputs: 
+(i) Name of stock, 
+(ii) Start date, 
+(iii) End date
+
+* Based on these inputs, the app plots a line chart of the price movements in the selected period and calculates the rate of return during this period.
+
+
+Backend Process
+========================================================
+The server picks out the relevant time series based on the stock selected, trims the time series based on the input dates, and plots the price chart using ggplot2.
+
+It then calculates the rate of return from the prices on the start date and end date.
+
+GO TO THE APP >>>> https://jayneeee.shinyapps.io/dataproducts-shinnyapp/
+
+
+
+SnapShot of the app
+========================================================
+![Application Screenshot](stockapp.png)
