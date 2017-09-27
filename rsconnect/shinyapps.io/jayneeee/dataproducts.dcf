@@ -1,0 +1,12 @@
+name: dataproducts
+title: dataproducts
+username:
+account: jayneeee
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 219247
+bundleId: 999463
+url: https://jayneeee.shinyapps.io/dataproducts/
+when: 1506498287.25834
+asMultiple: FALSE
+asStatic: FALSE
